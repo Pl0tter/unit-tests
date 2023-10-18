@@ -4,40 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72e0f539-948c-4bb7-9937-78a8ff3e32cf" name="Changes" comment="add Seminar and Homework 03">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task01/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task01/OrderProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task02/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task02/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task03/WeatherAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task03/WeatherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task04/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task04/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task04/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task05/EmailMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task05/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task05/FakeEmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task05/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task06/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task06/FakeCalculator.java" afterDir="false" />
+    <list default="true" id="72e0f539-948c-4bb7-9937-78a8ff3e32cf" name="Changes" comment="add Seminar 05">
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar05/task01/MaxNumberFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminar05/task01/RandomNumberGenerator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar05/task02/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar05/task02/UserRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar05/task02/UserService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar05/task03/Order.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar05/task03/OrderService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar05/task03/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task01/OrderProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task02/EmailSenderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task03/WeatherAnalyzerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task04/EmailSenderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task04/EmailSenderTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task04/EmailServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task04/UserServiceTestWithMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task04/UserServiceTestWithSpy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task05/UserServiceTestWithFake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task06/CalculatorTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/seminar05/task01/IntegrationTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/seminar05/task01/MaxNumberFinderTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/seminar05/task01/RandomNumberGeneratorTest.java" afterDir="false" />
@@ -128,10 +103,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\YandexDisk\Личное\GeekBrains\Projects\IdeaProjects\Unit-tests-Maven\src\test\java\seminar05" />
+      <recent name="D:\YandexDisk\Личное\GeekBrains\Projects\IdeaProjects\Unit-tests-Maven\src\main\java\seminar05" />
       <recent name="E:\YandexDisk\Личное\GeekBrains\Projects\IdeaProjects\Unit-tests-Maven\src\main\java\seminar04" />
       <recent name="E:\YandexDisk\Личное\GeekBrains\Projects\IdeaProjects\Unit-tests-Maven\src\test\java\seminar04" />
       <recent name="D:\YandexDisk\Личное\GeekBrains\Projects\IdeaProjects\Unit-tests-Maven\src\main\java\seminar04" />
-      <recent name="D:\YandexDisk\Личное\GeekBrains\Projects\IdeaProjects" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="seminar04.task02" />
@@ -151,7 +127,7 @@
       <recent name="seminar03.task01" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WeatherReporterTest.testWeatherReporter">
+  <component name="RunManager" selected="JUnit.UserServiceTest.testGetUserById">
     <configuration name="MyTest" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="seminar04.Main" />
       <module name="Unit-tests-Maven" />
@@ -175,22 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingServiceTest.testBookingService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Unit-tests-Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar04.hotel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminar04.hotel" />
-      <option name="MAIN_CLASS_NAME" value="seminar04.hotel.BookingServiceTest" />
-      <option name="METHOD_NAME" value="testBookingService" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DataProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit-tests-Maven" />
       <extension name="coverage">
@@ -202,6 +162,22 @@
       <option name="PACKAGE_NAME" value="seminar04.database" />
       <option name="MAIN_CLASS_NAME" value="seminar04.database.DataProcessorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Unit-tests-Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar05.task02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar05.task02" />
+      <option name="MAIN_CLASS_NAME" value="seminar05.task02.UserServiceTest" />
+      <option name="METHOD_NAME" value="testGetUserById" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -239,19 +215,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MyTest" />
+      <item itemvalue="JUnit.UserServiceTest.testGetUserById" />
       <item itemvalue="JUnit.BookingServiceTest" />
-      <item itemvalue="JUnit.BookingServiceTest.testBookingService" />
       <item itemvalue="JUnit.DataProcessorTest" />
       <item itemvalue="JUnit.WeatherReporterTest" />
       <item itemvalue="JUnit.WeatherReporterTest.testWeatherReporter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest.testGetUserById" />
         <item itemvalue="JUnit.WeatherReporterTest.testWeatherReporter" />
         <item itemvalue="JUnit.WeatherReporterTest" />
         <item itemvalue="JUnit.BookingServiceTest" />
         <item itemvalue="JUnit.DataProcessorTest" />
-        <item itemvalue="JUnit.BookingServiceTest.testBookingService" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697446933925</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Seminar and Homework 04">
+      <created>1697638444232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697638444232</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,7 +286,10 @@
     <MESSAGE value="add Seminar and Homework 01" />
     <MESSAGE value="add Seminar and Homework 02" />
     <MESSAGE value="add Seminar and Homework 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Seminar and Homework 03" />
+    <MESSAGE value="add Seminar and Homework 04" />
+    <MESSAGE value="add Seminar and Homework 05" />
+    <MESSAGE value="add Seminar 05" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Seminar 05" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
