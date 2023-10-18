@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72e0f539-948c-4bb7-9937-78a8ff3e32cf" name="Changes" comment="add Seminar and Homework 02">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar03/hw/MainHW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar03/task01/CalculatorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar03/task01/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar03/task01/CalculatorModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminar03/task01/CalculatorView.java" afterDir="false" />
+    <list default="true" id="72e0f539-948c-4bb7-9937-78a8ff3e32cf" name="Changes" comment="add Seminar and Homework 03">
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task01/Customer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task01/OrderProcessor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar04/task02/Email.java" afterDir="false" />
@@ -32,12 +27,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar05/task03/Order.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar05/task03/OrderService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/seminar05/task03/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar03/hw/MainHWTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar03/task01/CalculatorControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar03/task01/CalculatorControllerTestMockito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar03/task01/CalculatorModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar03/task01/CalculatorViewTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/seminar03/tdd/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/MainTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task01/OrderProcessorTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task02/EmailSenderTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/seminar04/task03/WeatherAnalyzerTest.java" afterDir="false" />
@@ -138,6 +128,9 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\YandexDisk\Личное\GeekBrains\Projects\IdeaProjects\Unit-tests-Maven\src\main\java\seminar04" />
+      <recent name="E:\YandexDisk\Личное\GeekBrains\Projects\IdeaProjects\Unit-tests-Maven\src\test\java\seminar04" />
+      <recent name="D:\YandexDisk\Личное\GeekBrains\Projects\IdeaProjects\Unit-tests-Maven\src\main\java\seminar04" />
       <recent name="D:\YandexDisk\Личное\GeekBrains\Projects\IdeaProjects" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -158,100 +151,107 @@
       <recent name="seminar03.task01" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorControllerTestMockito.testPerformOperationWithArithmeticException">
+  <component name="RunManager" selected="JUnit.WeatherReporterTest.testWeatherReporter">
     <configuration name="MyTest" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="task05.MyTest" />
+      <option name="MAIN_CLASS_NAME" value="seminar04.Main" />
       <module name="Unit-tests-Maven" />
       <option name="VM_PARAMETERS" value="-ea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorControllerTestMockito.testPerformOperationWithArithmeticException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit-tests-Maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar03.task01.*" />
+          <option name="PATTERN" value="seminar04.hotel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar03.task01" />
-      <option name="MAIN_CLASS_NAME" value="seminar03.task01.CalculatorControllerTestMockito" />
-      <option name="METHOD_NAME" value="testPerformOperationWithArithmeticException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainHWTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Unit-tests-Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar03.hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminar03.hw" />
-      <option name="MAIN_CLASS_NAME" value="seminar03.hw.MainHWTest" />
+      <option name="PACKAGE_NAME" value="seminar04.hotel" />
+      <option name="MAIN_CLASS_NAME" value="seminar04.hotel.BookingServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingServiceTest.testBookingService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit-tests-Maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar03.tdd.*" />
+          <option name="PATTERN" value="seminar04.hotel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seminar03.tdd" />
-      <option name="MAIN_CLASS_NAME" value="seminar03.tdd.UserRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTest.deauthentificate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Unit-tests-Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar03.tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminar03.tdd" />
-      <option name="MAIN_CLASS_NAME" value="seminar03.tdd.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="deauthentificate" />
+      <option name="PACKAGE_NAME" value="seminar04.hotel" />
+      <option name="MAIN_CLASS_NAME" value="seminar04.hotel.BookingServiceTest" />
+      <option name="METHOD_NAME" value="testBookingService" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task01 in Unit-tests-Maven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Unit-tests-Maven" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java/seminar03/task01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar04.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar04.database" />
+      <option name="MAIN_CLASS_NAME" value="seminar04.database.DataProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherReporterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Unit-tests-Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar04.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar04.weather" />
+      <option name="MAIN_CLASS_NAME" value="seminar04.weather.WeatherReporterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherReporterTest.testWeatherReporter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Unit-tests-Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar04.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar04.weather" />
+      <option name="MAIN_CLASS_NAME" value="seminar04.weather.WeatherReporterTest" />
+      <option name="METHOD_NAME" value="testWeatherReporter" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.MyTest" />
-      <item itemvalue="JUnit.CalculatorControllerTestMockito.testPerformOperationWithArithmeticException" />
-      <item itemvalue="JUnit.MainHWTest" />
-      <item itemvalue="JUnit.UserRepositoryTest" />
-      <item itemvalue="JUnit.task01 in Unit-tests-Maven" />
-      <item itemvalue="JUnit.UserRepositoryTest.deauthentificate" />
+      <item itemvalue="JUnit.BookingServiceTest" />
+      <item itemvalue="JUnit.BookingServiceTest.testBookingService" />
+      <item itemvalue="JUnit.DataProcessorTest" />
+      <item itemvalue="JUnit.WeatherReporterTest" />
+      <item itemvalue="JUnit.WeatherReporterTest.testWeatherReporter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorControllerTestMockito.testPerformOperationWithArithmeticException" />
-        <item itemvalue="JUnit.task01 in Unit-tests-Maven" />
-        <item itemvalue="JUnit.UserRepositoryTest" />
-        <item itemvalue="JUnit.MainHWTest" />
-        <item itemvalue="JUnit.UserRepositoryTest.deauthentificate" />
+        <item itemvalue="JUnit.WeatherReporterTest.testWeatherReporter" />
+        <item itemvalue="JUnit.WeatherReporterTest" />
+        <item itemvalue="JUnit.BookingServiceTest" />
+        <item itemvalue="JUnit.DataProcessorTest" />
+        <item itemvalue="JUnit.BookingServiceTest.testBookingService" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697121995178</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Seminar and Homework 03">
+      <created>1697446933925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697446933925</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,7 +302,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Seminar and Homework 01" />
     <MESSAGE value="add Seminar and Homework 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Seminar and Homework 02" />
+    <MESSAGE value="add Seminar and Homework 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Seminar and Homework 03" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
